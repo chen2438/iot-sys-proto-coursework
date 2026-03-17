@@ -1,0 +1,25 @@
+# Zephyr / nRF Connect build output
+build/
+build*/
+**/build/
+**/build*/
+
+# Firmware artifacts
+*.bin
+*.elf
+*.hex
+*.map
+*.uf2
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Editor files
+.vscode/
+*.swp
+*~
+
+# macOS / Windows metadata
+.DS_Store
+Thumbs.db
