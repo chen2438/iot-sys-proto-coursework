@@ -1,0 +1,6 @@
+model_name,test_accuracy_pc_pct,test_accuracy_tflite_pct,quant_tflite_size_bytes,latency_us_avg,latency_us_min,latency_us_max,notes
+tiny_2,75.27,74.09,5536,41006.36,38491,47173,Recommended report model
+mid_12_24,83.09,81.00,7544,61851.45,55276,68085,Recommended report model
+mid_16_24,71.64,73.00,8624,75026.65,68191,80689,Recommended report model
+mid_14_28,72.00,71.64,8744,73696.20,67735,81336,Recommended report model
+mid_14_24_24,88.27,87.18,14608,69963.86,48094,78542,Recommended report model

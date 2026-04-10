@@ -23,3 +23,6 @@ __pycache__/
 # macOS / Windows metadata
 .DS_Store
 Thumbs.db
+
+# Microsoft Office temporary files
+~$*.docx
