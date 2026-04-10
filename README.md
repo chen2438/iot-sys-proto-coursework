@@ -30,6 +30,8 @@ Implemented features visible in the code and local documentation include:
 
 Build entry point:
 
+> You can build directly using the VS Code plugin.
+
 ```sh
 west build -b nrf54l15dk/nrf54l15/cpuapp design-challenge-1
 ```
