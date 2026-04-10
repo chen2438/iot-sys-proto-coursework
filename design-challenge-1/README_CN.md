@@ -88,6 +88,8 @@ Manufacturer Specific Data 包含：
 
 构建前，先在 Nordic Board Configurator 中将 ADC 参考电压设为 `3.3V`，这是 Lab 2 的前提条件。
 
+> 直接用VS Code的构建功能就可以 以下忽略
+
 示例构建命令：
 
 ```sh
