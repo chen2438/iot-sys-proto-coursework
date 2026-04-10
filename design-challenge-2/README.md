@@ -7,13 +7,14 @@ The work currently covers:
 - `4.1 Baseline`
 - `4.2 Architecture Exploration`
 - `4.3 Personalisation and Stability Analysis`
+- `5 Extending the System with a New Letter Class`
 
 ## Folder overview
 
 - `notebook/`
   - Colab notebooks for the baseline, architecture exploration, and personalisation tasks.
 - `dataset/`
-  - Personal datasets for group `15`, corresponding to digits `5` and `6`.
+  - Personal datasets for group `15`, corresponding to digits `5`, `6`, and letter `P`.
 - `models/`
   - Exported `.cc` model files used for Arduino / TensorFlow Lite Micro deployment.
 - `latency_log/`
@@ -86,6 +87,59 @@ Main files:
 - `notebook/task_4_3_comparison.csv`
 - `document/report_4_3_final.md`
 
+## Task 5
+
+Task `5` extends the recognizer from `10` classes to `11` classes by adding the group-specific letter.
+
+For group `15`, the assigned letter is:
+
+- `P`
+
+Personal dataset file:
+
+- `dataset/wanddata_P.json`
+
+The repository now includes a Colab-ready workflow that:
+
+- rebuilds the baseline `10-class` digit model
+- trains an extended `11-class` model for digits `0-9` plus `P`
+- exports a quantized `.tflite` model and `.cc` array for deployment
+- measures the effect on digit accuracy
+- measures recognition and consistency for the new letter `P`
+- generates confusion-matrix outputs for report use
+
+Main files:
+
+- `notebook/5.ipynb`
+- `notebook/5_saved.ipynb`
+- `notebook/task_5_summary.csv`
+- `document/report_5_final.md`
+
+Expected output files after running `notebook/5.ipynb` in Colab:
+
+- `task_5_summary.csv`
+- `task_5_letter_consistency.csv`
+- `task_5_confusion_matrix.csv`
+- `task_5_p_confusions.csv`
+- `task_5_confusion_matrix.png`
+
+### Final Task 5 result summary
+
+| Metric | Value |
+|---|---:|
+| Baseline PC digit accuracy (%) | 96.00 |
+| Extended PC digit accuracy (%) | 94.00 |
+| Extended PC full 11-class accuracy (%) | 94.17 |
+| Extended PC letter `P` test accuracy (%) | 100.00 |
+| Extended repeated-letter accuracy (%) | 90.00 |
+| Extended letter consistency (%) | 90.00 |
+
+These results show that adding the new class `P` only caused a small drop in digit accuracy, while the new letter itself was recognised very well and consistently.
+
+Deployment note:
+
+- if you switch the Arduino project to the new `11-class` exported model, also update [magic_wand.ino](/Users/nanmener/Sync/UoB/TB2/03_IoT_System_Prototyping/iot-sys-proto-coursework/design-challenge-2/magic_wand/magic_wand.ino) so `label_count` and the label list include `P`
+
 ## Practical conclusion
 
-`4.2` shows the trade-off between architecture complexity and embedded deployment cost, while `4.3` shows that personalisation can dramatically improve user-specific stability and accuracy. Together, these tasks provide both a system-level and user-level evaluation of TinyML gesture recognition on the Arduino Nano 33 BLE Sense.
+`4.2` shows the trade-off between architecture complexity and embedded deployment cost, `4.3` shows that personalisation can dramatically improve user-specific stability and accuracy, and `5` extends the system to a new gesture class and tests how well the recognizer scales beyond the original ten digits.

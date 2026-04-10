@@ -1,0 +1,2 @@
+gesture,samples,modal_prediction,modal_count,consistency_pct,accuracy_pct
+p,30,p,27,90.0,90.0
