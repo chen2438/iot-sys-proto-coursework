@@ -5,13 +5,13 @@
 ## 目录结构
 
 - 工程目录：
-  [magic_wand](/Users/nanmener/Sync/UoB/TB2/03_IoT_System_Prototyping/coursework/design-challenge-2/magic_wand)
+  [magic_wand](../magic_wand)
 - 模型目录：
-  [models](/Users/nanmener/Sync/UoB/TB2/03_IoT_System_Prototyping/coursework/design-challenge-2/models)
+  [models](../models)
 - 切换脚本：
-  [use_model.sh](/Users/nanmener/Sync/UoB/TB2/03_IoT_System_Prototyping/coursework/design-challenge-2/models/use_model.sh)
+  [use_model.sh](../models/use_model.sh)
 - 延迟汇总表：
-  [mcu_latency_template.csv](/Users/nanmener/Sync/UoB/TB2/03_IoT_System_Prototyping/coursework/design-challenge-2/mcu_latency_template.csv)
+  [mcu_latency_template.csv](../mcu_latency_template.csv)
 
 ## 可切换模型
 
@@ -30,7 +30,7 @@
 
 为了测量板端推理时间，我修改了：
 
-- [magic_wand.ino](/Users/nanmener/Sync/UoB/TB2/03_IoT_System_Prototyping/coursework/design-challenge-2/magic_wand/magic_wand.ino#L230)
+- [magic_wand.ino](../magic_wand/magic_wand.ino)
 
 原工程在调用 `interpreter->Invoke()` 时只执行推理，不输出延迟。我加入了基于 `micros()` 的计时代码，并通过串口输出：
 
@@ -61,7 +61,7 @@ Serial.println(" us");
 在终端进入 `models` 目录：
 
 ```bash
-cd /Users/nanmener/Sync/UoB/TB2/03_IoT_System_Prototyping/coursework/design-challenge-2/models
+cd ../models
 chmod +x use_model.sh
 ```
 
@@ -83,13 +83,13 @@ chmod +x use_model.sh
 
 这个脚本会把所选模型复制到：
 
-- [magic_wand_model_data.cpp](/Users/nanmener/Sync/UoB/TB2/03_IoT_System_Prototyping/coursework/design-challenge-2/magic_wand/magic_wand_model_data.cpp)
+- [magic_wand_model_data.cpp](../magic_wand/magic_wand_model_data.cpp)
 
 ## 2. 打开 Arduino 工程
 
 在 Arduino IDE 打开：
 
-- [magic_wand.ino](/Users/nanmener/Sync/UoB/TB2/03_IoT_System_Prototyping/coursework/design-challenge-2/magic_wand/magic_wand.ino)
+- [magic_wand.ino](../magic_wand/magic_wand.ino)
 
 ## 3. 上传到开发板
 
@@ -130,7 +130,7 @@ Found 5 (87)
 
 然后把结果填回：
 
-- [mcu_latency_template.csv](/Users/nanmener/Sync/UoB/TB2/03_IoT_System_Prototyping/coursework/design-challenge-2/mcu_latency_template.csv)
+- [mcu_latency_template.csv](../mcu_latency_template.csv)
 
 ## 推荐写法
 

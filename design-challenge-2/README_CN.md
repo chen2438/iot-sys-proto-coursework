@@ -4,7 +4,7 @@
 
 ## 当前文件
 
-- `DC2_4_1_4_2_Architecture_Exploration.ipynb`
+- `notebook/4.2.ipynb`
   - 面向 Google Colab 的 notebook。
   - 自动下载 baseline 使用的 digits 数据集。
   - 训练多种 CNN 架构。
@@ -13,8 +13,8 @@
   - 预留 MCU latency 记录区。
 - `mcu_latency_template.csv`
   - 记录板端延迟测试结果的模板。
-- `wanddata_5.json`
-- `wanddata_6.json`
+- `dataset/wanddata_5.json`
+- `dataset/wanddata_6.json`
   - 这两份是后续 `4.3` 会用到的个人数据。由于 `group id = 15`，后续对应数字就是 `5` 和 `6`。
 
 ## 你需要操作的地方
@@ -23,7 +23,7 @@
 
 打开：
 
-- [DC2_4_1_4_2_Architecture_Exploration.ipynb](/Users/nanmener/Sync/UoB/TB2/03_IoT_System_Prototyping/coursework/design-challenge-2/DC2_4_1_4_2_Architecture_Exploration.ipynb)
+- [4.2.ipynb](notebook/4.2.ipynb)
 
 建议在 Google Colab 中执行 `Runtime -> Run all`。
 
@@ -45,7 +45,7 @@
 4. 在调用 `interpreter->Invoke()` 前后加入 `micros()` 计时。
 5. 串口运行多次，记录每个模型的平均 latency。
 6. 把结果填入：
-   - [mcu_latency_template.csv](/Users/nanmener/Sync/UoB/TB2/03_IoT_System_Prototyping/coursework/design-challenge-2/mcu_latency_template.csv)
+   - [mcu_latency_template.csv](mcu_latency_template.csv)
 
 如果你愿意，我下一步可以继续直接帮你做：
 

@@ -4,7 +4,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 
-BASE = Path("/Users/nanmener/Sync/UoB/TB2/03_IoT_System_Prototyping/coursework/design-challenge-2")
+BASE = Path(__file__).resolve().parent
 CSV_PATH = BASE / "mcu_latency_template.csv"
 WIDTH = 1200
 HEIGHT = 800
