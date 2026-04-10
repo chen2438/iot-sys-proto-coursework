@@ -1,72 +1,91 @@
-# Design Challenge 2 - 任务 4.1-4.2
+# Design Challenge 2 说明
 
-本目录当前先覆盖 `CW_EEMEM0018_IoTSystemPrototyping_V3.pdf` 中的 `4.1 Baseline` 和 `4.2 Architecture Exploration`。
+本目录保存 IoT System Prototyping 课程作业中 `Design Challenge 2` 的相关材料。
 
-## 当前文件
+当前已经覆盖：
+
+- `4.1 Baseline`
+- `4.2 Architecture Exploration`
+- `4.3 Personalisation and Stability Analysis`
+
+## 目录结构
+
+- `notebook/`
+  - 用于 Google Colab 的 notebook，包括 baseline、架构探索和个性化实验。
+- `dataset/`
+  - 第 `15` 组对应的个人数据集，即数字 `5` 和 `6`。
+- `models/`
+  - 导出的 `.cc` 模型文件，可用于 Arduino / TensorFlow Lite Micro 部署。
+- `latency_log/`
+  - `4.2` 选定模型的 MCU 延迟日志。
+- `document/`
+  - 报告草稿和补充说明材料。
+
+## 任务 4.1
+
+`4.1` 完成了提供的 Magic Wand baseline 流程，使用原始数字数据集以及题目给定的 train / validation / test 划分比例。该部分是后续任务的前提，但本身不计分。
+
+参考 notebook：
+
+- `notebook/Baseline.ipynb`
+
+## 任务 4.2
+
+`4.2` 主要探索不同 CNN 架构在以下三项指标之间的 trade-off：
+
+- 分类准确率
+- 量化后模型大小
+- MCU 推理延迟
+
+仓库中已经包含：
+
+- 多种架构训练结果
+- 导出的 `.cc` 模型文件
+- `accuracy_vs_model_size.png`
+- `accuracy_vs_mcu_latency.png`
+- MCU 端 latency 记录
+- 可直接用于报告的总结材料
+
+主要文件：
 
 - `notebook/4.2.ipynb`
-  - 面向 Google Colab 的 notebook。
-  - 自动下载 baseline 使用的 digits 数据集。
-  - 训练多种 CNN 架构。
-  - 统计 PC 端测试准确率、量化后 `.tflite` 模型大小。
-  - 生成 `accuracy vs model size` 图。
-  - 预留 MCU latency 记录区。
 - `mcu_latency_template.csv`
-  - 记录板端延迟测试结果的模板。
+- `document/report_4_1_4_2_draft_final.md`
+
+## 任务 4.3
+
+`4.3` 用于研究加入个人数据后，对准确率和预测稳定性的影响。
+
+对于第 `15` 组，个人数字为：
+
+- `5`
+- `6`
+
+对应个人数据文件：
+
 - `dataset/wanddata_5.json`
 - `dataset/wanddata_6.json`
-  - 这两份是后续 `4.3` 会用到的个人数据。由于 `group id = 15`，后续对应数字就是 `5` 和 `6`。
 
-## 你需要操作的地方
+该实验比较：
 
-### 1. 在 Colab 跑 notebook
+- 仅用原始数据训练的 baseline 模型
+- 将个人数据混入原始数据后训练得到的 personalised 模型
 
-打开：
+### 4.3 最终结果摘要
 
-- [4.2.ipynb](notebook/4.2.ipynb)
+| 模型 | 原始测试集 PC 准确率 (%) | 个性化测试集 PC 准确率 (%) | 原始测试集量化准确率 (%) | 个性化测试集量化准确率 (%) | 个人重复手势准确率 (%) | 个人一致性 (%) |
+|---|---:|---:|---:|---:|---:|---:|
+| baseline_original | 93.73 | 91.96 | 93.82 | 91.87 | 52.17 | 53.08 |
+| baseline_personalised | 91.91 | 90.65 | 91.82 | 90.30 | 95.65 | 96.16 |
 
-建议在 Google Colab 中执行 `Runtime -> Run all`。
+这说明加入个人数据后，模型在原始共享数据集上的表现只略有下降，但对用户本人重复手势的识别准确率和稳定性都得到了非常明显的提升。
 
-它会完成：
+主要文件：
 
-- baseline 数据集下载
-- 数据预处理
-- 至少 8 个候选架构训练
-- 导出每个架构的 `.keras`、float `.tflite`、quantized `.tflite`、`.cc`
-- 生成结果表和 `accuracy vs model size` 图
+- `notebook/4.3.ipynb`
+- `notebook/task_4_3_comparison.csv`
+- `document/report_4_3_final.md`
 
-### 2. 需要你在 Arduino 上做的部分
+## 总结
 
-因为我当前不能直接连你的开发板，所以 `accuracy vs latency on the MCU` 这一步需要你操作：
-
-1. 在 Colab 跑完 notebook 后，下载你要测试的几个模型对应的 `.cc` 文件。
-2. 在 Arduino IDE 打开 Harvard TinyMLx 的 `magic_wand` 示例工程。
-3. 每次替换工程里的模型数组文件为一个新的 `.cc` 模型。
-4. 在调用 `interpreter->Invoke()` 前后加入 `micros()` 计时。
-5. 串口运行多次，记录每个模型的平均 latency。
-6. 把结果填入：
-   - [mcu_latency_template.csv](mcu_latency_template.csv)
-
-如果你愿意，我下一步可以继续直接帮你做：
-
-- Arduino 端 `magic_wand` 延迟测量代码修改版
-- 报告 4.1-4.2 的图表说明和文字草稿
-- 根据你跑出来的真实结果，整理最终要交的表格和结论
-
-## 作业要求摘要
-
-根据 PDF，4.1-4.2 目前最关键的要求是：
-
-- 先成功运行 baseline
-- 至少训练 `5` 个不同模型架构
-- 记录每个模型：
-  - PC 端测试准确率
-  - 量化后 `.tflite` 模型大小
-- 绘制并分析：
-  - accuracy vs model size
-  - accuracy vs MCU latency
-
-注意：
-
-- PDF 明确说明 `cannot modify the current dataset split ratio`
-- 后续 `4.3` 再使用个人数据，当前 `4.2` 先只用 baseline 的提供数据集
+`4.2` 展示了模型架构复杂度与嵌入式部署成本之间的关系，`4.3` 则展示了个性化数据对用户特定手势识别稳定性的巨大提升。两部分结合起来，构成了对 Arduino Nano 33 BLE Sense 上 TinyML 手势识别系统较完整的评估。
