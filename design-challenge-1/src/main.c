@@ -48,6 +48,8 @@
 #define COMM_THREAD_PRIORITY 3
 
 #define WINDOW_SAMPLE_COUNT ((AVERAGE_WINDOW_SECONDS * 1000) / SAMPLE_PERIOD_MS)
+#define JITTER_REPORT_INTERVALS WINDOW_SAMPLE_COUNT
+#define JITTER_BAD_TOLERANCE_MS 2
 
 #define LED0_NODE DT_ALIAS(led0)
 #define BUTTON0_NODE DT_ALIAS(sw0)
@@ -121,6 +123,15 @@ struct welford_stats {
 	int64_t m2_q16;
 };
 
+struct jitter_summary {
+	uint32_t sequence;
+	uint32_t intervals;
+	uint32_t bad_intervals;
+	int64_t min_delta_ms;
+	int64_t max_delta_ms;
+	int64_t total_delta_ms;
+};
+
 static const struct gpio_dt_spec led0 = GPIO_DT_SPEC_GET(LED0_NODE, gpios);
 static const struct gpio_dt_spec buttons[] = {
 	GPIO_DT_SPEC_GET(BUTTON0_NODE, gpios),
@@ -156,6 +167,7 @@ K_MSGQ_DEFINE(calibration_msgq, sizeof(uint8_t), CALIBRATION_QUEUE_LEN, 1);
 K_SEM_DEFINE(sample_tick_sem, 0, 32);
 
 static K_MUTEX_DEFINE(snapshot_lock);
+static K_MUTEX_DEFINE(jitter_lock);
 
 static struct k_timer sample_timer;
 static struct k_timer led_off_timer;
@@ -192,6 +204,16 @@ static bool drift_active;
 static bool controlled_environment;
 
 static struct system_snapshot latest_snapshot;
+static struct jitter_summary latest_jitter_summary;
+
+static int64_t jitter_last_tick_ms;
+static int64_t jitter_min_delta_ms;
+static int64_t jitter_max_delta_ms;
+static int64_t jitter_total_delta_ms;
+static uint32_t jitter_interval_count;
+static uint32_t jitter_bad_interval_count;
+static uint32_t jitter_summary_sequence;
+static bool jitter_last_tick_valid;
 
 static K_THREAD_STACK_DEFINE(adc_thread_stack, ADC_THREAD_STACK_SIZE);
 static K_THREAD_STACK_DEFINE(logic_thread_stack, LOGIC_THREAD_STACK_SIZE);
@@ -533,6 +555,83 @@ static int16_t update_average_window(int16_t latest_temp_centi,
 	return (int16_t)(window_sum / window_count);
 }
 
+static void reset_jitter_window(void)
+{
+	jitter_min_delta_ms = 0;
+	jitter_max_delta_ms = 0;
+	jitter_total_delta_ms = 0;
+	jitter_interval_count = 0U;
+	jitter_bad_interval_count = 0U;
+}
+
+static void update_jitter_stats(int64_t tick_ms)
+{
+	int64_t delta_ms;
+
+	if (!jitter_last_tick_valid) {
+		jitter_last_tick_ms = tick_ms;
+		jitter_last_tick_valid = true;
+		return;
+	}
+
+	delta_ms = tick_ms - jitter_last_tick_ms;
+	jitter_last_tick_ms = tick_ms;
+
+	if (jitter_interval_count == 0U) {
+		jitter_min_delta_ms = delta_ms;
+		jitter_max_delta_ms = delta_ms;
+	} else {
+		if (delta_ms < jitter_min_delta_ms) {
+			jitter_min_delta_ms = delta_ms;
+		}
+		if (delta_ms > jitter_max_delta_ms) {
+			jitter_max_delta_ms = delta_ms;
+		}
+	}
+
+	jitter_total_delta_ms += delta_ms;
+	jitter_interval_count++;
+
+	if (delta_ms < (SAMPLE_PERIOD_MS - JITTER_BAD_TOLERANCE_MS) ||
+	    delta_ms > (SAMPLE_PERIOD_MS + JITTER_BAD_TOLERANCE_MS)) {
+		jitter_bad_interval_count++;
+	}
+
+	if (jitter_interval_count >= JITTER_REPORT_INTERVALS) {
+		struct jitter_summary summary = {
+			.sequence = ++jitter_summary_sequence,
+			.intervals = jitter_interval_count,
+			.bad_intervals = jitter_bad_interval_count,
+			.min_delta_ms = jitter_min_delta_ms,
+			.max_delta_ms = jitter_max_delta_ms,
+			.total_delta_ms = jitter_total_delta_ms,
+		};
+
+		k_mutex_lock(&jitter_lock, K_FOREVER);
+		latest_jitter_summary = summary;
+		k_mutex_unlock(&jitter_lock);
+
+		reset_jitter_window();
+	}
+}
+
+static bool get_new_jitter_summary(uint32_t *last_sequence,
+				   struct jitter_summary *summary)
+{
+	bool has_new_summary = false;
+
+	k_mutex_lock(&jitter_lock, K_FOREVER);
+	if (latest_jitter_summary.sequence != 0U &&
+	    latest_jitter_summary.sequence != *last_sequence) {
+		*summary = latest_jitter_summary;
+		*last_sequence = latest_jitter_summary.sequence;
+		has_new_summary = true;
+	}
+	k_mutex_unlock(&jitter_lock);
+
+	return has_new_summary;
+}
+
 static void finalize_minute_tracking(void)
 {
 	int32_t minute_avg_centi = 0;
@@ -590,9 +689,12 @@ static void adc_thread_entry(void *arg1, void *arg2, void *arg3)
 
 	while (1) {
 		struct sensor_sample sample;
+		int64_t tick_ms;
 		int err;
 
 		k_sem_take(&sample_tick_sem, K_FOREVER);
+		tick_ms = k_uptime_get();
+		update_jitter_stats(tick_ms);
 
 		err = acquire_sensor_sample(&sample);
 		if (err < 0) {
@@ -747,12 +849,15 @@ static void calibration_thread_entry(void *arg1, void *arg2, void *arg3)
 
 static void reporting_thread_entry(void *arg1, void *arg2, void *arg3)
 {
+	uint32_t last_jitter_sequence = 0U;
+
 	ARG_UNUSED(arg1);
 	ARG_UNUSED(arg2);
 	ARG_UNUSED(arg3);
 
 	while (1) {
 		struct system_snapshot snapshot;
+		struct jitter_summary jitter;
 
 		k_sleep(K_MSEC(REPORT_PERIOD_MS));
 
@@ -801,6 +906,21 @@ static void reporting_thread_entry(void *arg1, void *arg2, void *arg3)
 			       snapshot.controlled_environment ? "CTRL" : "TRANS",
 			       snapshot.adc_error_count,
 			       snapshot.queue_overrun_count);
+		}
+
+		if (get_new_jitter_summary(&last_jitter_sequence, &jitter)) {
+			int64_t avg_delta_x100 =
+				(jitter.total_delta_ms * 100) / (int64_t)jitter.intervals;
+
+			printk("JITTER: n=%u | min=%lld ms | max=%lld ms | avg=%lld.%02lld ms | "
+			       "bad=%u | tolerance=+/- %d ms\n",
+			       jitter.intervals,
+			       (long long)jitter.min_delta_ms,
+			       (long long)jitter.max_delta_ms,
+			       (long long)(avg_delta_x100 / 100),
+			       (long long)(avg_delta_x100 % 100),
+			       jitter.bad_intervals,
+			       JITTER_BAD_TOLERANCE_MS);
 		}
 	}
 }

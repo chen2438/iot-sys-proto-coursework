@@ -11,6 +11,8 @@ nRF54L15 DK with an LM335 analogue temperature sensor wired as in Lab 2:
 - `LM335 GND` to board `GND`
 - `LM335 ADJ` left unconnected
 
+![image-20260417141829748](https://media.opennet.top/i/2026/04/17/z16w0p-0.png)
+
 ## Implemented requirements
 
 - Four distinct threads:

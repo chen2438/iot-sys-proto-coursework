@@ -13,6 +13,8 @@ LM335 连接方式与 Lab 2 一致：
 - `LM335 GND` 接开发板 `GND`
 - `LM335 ADJ` 悬空
 
+![image-20260417141829748](https://media.opennet.top/i/2026/04/17/z16w0p-0.png)
+
 ## 已实现功能
 
 - 至少四个独立线程：
@@ -131,7 +133,7 @@ west flash
 ### 1. 测试实时校准
 
 1. 上电并打开串口，确认日志中显示 `Thr: 28.00 C`
-2. 按 `SW0`，串口应打印 `Calibration: threshold -> ...`
+2. 按 `SW0`（BUTTON 0），串口应打印 `Calibration: threshold -> ...`
 3. 多按几次 `SW0`，把阈值降到当前室温以下
 4. 当 1 分钟平均值超过新阈值后，模式应切换为 `WARNING`，LED 应闪烁
 5. 按 `SW1` 提高阈值，模式应返回 `NORMAL`

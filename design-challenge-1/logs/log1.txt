@@ -1,0 +1,147 @@
+[9002 ms] Avg: 22.09 C | Raw: 21.75 C | MV: 2949 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[10002 ms] Avg: 22.10 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[11002 ms] Avg: 22.11 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[12002 ms] Avg: 22.12 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[13002 ms] Avg: 22.12 C | Raw: 21.75 C | MV: 2949 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[14002 ms] Avg: 22.13 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[15002 ms] Avg: 22.14 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[16002 ms] Avg: 22.14 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[17002 ms] Avg: 22.15 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[18002 ms] Avg: 22.15 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[19002 ms] Avg: 22.15 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[20002 ms] Avg: 22.15 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[21002 ms] Avg: 22.15 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[22002 ms] Avg: 22.16 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[23002 ms] Avg: 22.16 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[24002 ms] Avg: 22.16 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[25002 ms] Avg: 22.17 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[26002 ms] Avg: 22.17 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[27002 ms] Avg: 22.18 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[28002 ms] Avg: 22.18 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[29002 ms] Avg: 22.19 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[30002 ms] Avg: 22.19 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[31002 ms] Avg: 22.19 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[32002 ms] Avg: 22.20 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[33002 ms] Avg: 22.20 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[34002 ms] Avg: 22.20 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[35002 ms] Avg: 22.20 C | Raw: 22.85 C | MV: 2960 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[36002 ms] Avg: 22.21 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[37002 ms] Avg: 22.21 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[38002 ms] Avg: 22.21 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[39002 ms] Avg: 22.22 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[40002 ms] Avg: 22.22 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[41002 ms] Avg: 22.22 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[42002 ms] Avg: 22.22 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[43002 ms] Avg: 22.23 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[44002 ms] Avg: 22.22 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[45002 ms] Avg: 22.23 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[46002 ms] Avg: 22.23 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[47002 ms] Avg: 22.24 C | Raw: 22.85 C | MV: 2960 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[48002 ms] Avg: 22.24 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[49002 ms] Avg: 22.24 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[50002 ms] Avg: 22.24 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[51002 ms] Avg: 22.24 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[52002 ms] Avg: 22.24 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[53002 ms] Avg: 22.25 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[54002 ms] Avg: 22.25 C | Raw: 22.85 C | MV: 2960 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[55002 ms] Avg: 22.25 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[56002 ms] Avg: 22.25 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[57002 ms] Avg: 22.25 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[58002 ms] Avg: 22.26 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[59002 ms] Avg: 22.26 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[60002 ms] Avg: 22.26 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[61002 ms] Avg: 22.26 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[62002 ms] Avg: 22.27 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[63002 ms] Avg: 22.28 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[64002 ms] Avg: 22.28 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[65002 ms] Avg: 22.29 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[66002 ms] Avg: 22.29 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[67002 ms] Avg: 22.29 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[68002 ms] Avg: 22.30 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[69002 ms] Avg: 22.30 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+Calibration: threshold -> 27.50 C
+[70002 ms] Avg: 22.30 C | Raw: 22.45 C | MV: 2956 | Thr: 27.50 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+Calibration: threshold -> 27.00 C
+[71002 ms] Avg: 22.30 C | Raw: 22.45 C | MV: 2956 | Thr: 27.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+Calibration: threshold -> 26.50 C
+Calibration: threshold -> 26.00 C
+[72002 ms] Avg: 22.30 C | Raw: 22.15 C | MV: 2953 | Thr: 26.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[73002 ms] Avg: 22.30 C | Raw: 22.85 C | MV: 2960 | Thr: 26.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[74002 ms] Avg: 22.30 C | Raw: 22.15 C | MV: 2953 | Thr: 26.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+Calibration: threshold -> 25.50 C
+Calibration: threshold -> 25.00 C
+[75002 ms] Avg: 22.30 C | Raw: 22.45 C | MV: 2956 | Thr: 25.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+Calibration: threshold -> 24.50 C
+[76002 ms] Avg: 22.31 C | Raw: 22.45 C | MV: 2956 | Thr: 24.50 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[77002 ms] Avg: 22.31 C | Raw: 21.45 C | MV: 2946 | Thr: 24.50 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[78002 ms] Avg: 22.31 C | Raw: 22.85 C | MV: 2960 | Thr: 24.50 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[79002 ms] Avg: 22.31 C | Raw: 22.45 C | MV: 2956 | Thr: 24.50 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+Calibration: threshold -> 24.00 C
+[80002 ms] Avg: 22.31 C | Raw: 22.15 C | MV: 2953 | Thr: 24.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[81002 ms] Avg: 22.31 C | Raw: 22.45 C | MV: 2956 | Thr: 24.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[82002 ms] Avg: 22.31 C | Raw: 22.15 C | MV: 2953 | Thr: 24.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[83002 ms] Avg: 22.31 C | Raw: 22.15 C | MV: 2953 | Thr: 24.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+Calibration: threshold -> 23.50 C
+[84002 ms] Avg: 22.31 C | Raw: 22.45 C | MV: 2956 | Thr: 23.50 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[85002 ms] Avg: 22.32 C | Raw: 22.45 C | MV: 2956 | Thr: 23.50 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+Calibration: threshold -> 23.00 C
+[86002 ms] Avg: 22.32 C | Raw: 22.45 C | MV: 2956 | Thr: 23.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+Calibration: threshold -> 22.50 C
+[87002 ms] Avg: 22.32 C | Raw: 22.45 C | MV: 2956 | Thr: 22.50 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+Calibration: threshold -> 22.00 C
+[88002 ms] Avg: 22.32 C | Raw: 22.45 C | MV: 2956 | Thr: 22.00 C | Mode: WARNING | LED: BLINKING | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[89002 ms] Avg: 22.32 C | Raw: 22.45 C | MV: 2956 | Thr: 22.00 C | Mode: WARNING | LED: BLINKING | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+Calibration: threshold -> 21.50 C
+Calibration: threshold -> 21.00 C
+[90002 ms] Avg: 22.32 C | Raw: 22.45 C | MV: 2956 | Thr: 21.00 C | Mode: WARNING | LED: BLINKING | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[91002 ms] Avg: 22.32 C | Raw: 22.15 C | MV: 2953 | Thr: 21.00 C | Mode: WARNING | LED: BLINKING | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[92002 ms] Avg: 22.32 C | Raw: 22.15 C | MV: 2953 | Thr: 21.00 C | Mode: WARNING | LED: BLINKING | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[93002 ms] Avg: 22.32 C | Raw: 22.15 C | MV: 2953 | Thr: 21.00 C | Mode: WARNING | LED: BLINKING | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[94002 ms] Avg: 22.32 C | Raw: 22.45 C | MV: 2956 | Thr: 21.00 C | Mode: WARNING | LED: BLINKING | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[95002 ms] Avg: 22.32 C | Raw: 22.45 C | MV: 2956 | Thr: 21.00 C | Mode: WARNING | LED: BLINKING | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[96002 ms] Avg: 22.32 C | Raw: 22.15 C | MV: 2953 | Thr: 21.00 C | Mode: WARNING | LED: BLINKING | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[97002 ms] Avg: 22.32 C | Raw: 22.15 C | MV: 2953 | Thr: 21.00 C | Mode: WARNING | LED: BLINKING | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[98002 ms] Avg: 22.32 C | Raw: 22.15 C | MV: 2953 | Thr: 21.00 C | Mode: WARNING | LED: BLINKING | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[99002 ms] Avg: 22.31 C | Raw: 22.45 C | MV: 2956 | Thr: 21.00 C | Mode: WARNING | LED: BLINKING | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[100002 ms] Avg: 22.31 C | Raw: 22.15 C | MV: 2953 | Thr: 21.00 C | Mode: WARNING | LED: BLINKING | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[101002 ms] Avg: 22.31 C | Raw: 22.15 C | MV: 2953 | Thr: 21.00 C | Mode: WARNING | LED: BLINKING | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[102002 ms] Avg: 22.31 C | Raw: 22.15 C | MV: 2953 | Thr: 21.00 C | Mode: WARNING | LED: BLINKING | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[103002 ms] Avg: 22.31 C | Raw: 21.75 C | MV: 2949 | Thr: 21.00 C | Mode: WARNING | LED: BLINKING | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[104002 ms] Avg: 22.31 C | Raw: 22.45 C | MV: 2956 | Thr: 21.00 C | Mode: WARNING | LED: BLINKING | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[105002 ms] Avg: 22.31 C | Raw: 22.45 C | MV: 2956 | Thr: 21.00 C | Mode: WARNING | LED: BLINKING | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[106002 ms] Avg: 22.31 C | Raw: 22.45 C | MV: 2956 | Thr: 21.00 C | Mode: WARNING | LED: BLINKING | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[107002 ms] Avg: 22.31 C | Raw: 22.15 C | MV: 2953 | Thr: 21.00 C | Mode: WARNING | LED: BLINKING | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[108002 ms] Avg: 22.31 C | Raw: 22.45 C | MV: 2956 | Thr: 21.00 C | Mode: WARNING | LED: BLINKING | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[109002 ms] Avg: 22.31 C | Raw: 22.85 C | MV: 2960 | Thr: 21.00 C | Mode: WARNING | LED: BLINKING | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[110002 ms] Avg: 22.31 C | Raw: 22.15 C | MV: 2953 | Thr: 21.00 C | Mode: WARNING | LED: BLINKING | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[111002 ms] Avg: 22.31 C | Raw: 21.75 C | MV: 2949 | Thr: 21.00 C | Mode: WARNING | LED: BLINKING | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[112002 ms] Avg: 22.31 C | Raw: 22.15 C | MV: 2953 | Thr: 21.00 C | Mode: WARNING | LED: BLINKING | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+Calibration: threshold -> 21.50 C
+[113002 ms] Avg: 22.31 C | Raw: 22.45 C | MV: 2956 | Thr: 21.50 C | Mode: WARNING | LED: BLINKING | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+Calibration: threshold -> 22.00 C
+[114002 ms] Avg: 22.30 C | Raw: 22.15 C | MV: 2953 | Thr: 22.00 C | Mode: WARNING | LED: BLINKING | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[115002 ms] Avg: 22.30 C | Raw: 22.45 C | MV: 2956 | Thr: 22.00 C | Mode: WARNING | LED: BLINKING | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+Calibration: threshold -> 22.50 C
+Calibration: threshold -> 23.00 C
+[116002 ms] Avg: 22.30 C | Raw: 22.45 C | MV: 2956 | Thr: 23.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+Calibration: threshold -> 23.50 C
+[117002 ms] Avg: 22.30 C | Raw: 22.15 C | MV: 2953 | Thr: 23.50 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[118002 ms] Avg: 22.30 C | Raw: 22.85 C | MV: 2960 | Thr: 23.50 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[119002 ms] Avg: 22.30 C | Raw: 22.15 C | MV: 2953 | Thr: 23.50 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.26 C | Ctrl: 1/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[120002 ms] Avg: 22.30 C | Raw: 22.45 C | MV: 2956 | Thr: 23.50 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.30 C | Ctrl: 2/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[121002 ms] Avg: 22.30 C | Raw: 22.15 C | MV: 2953 | Thr: 23.50 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.30 C | Ctrl: 2/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[122002 ms] Avg: 22.30 C | Raw: 22.15 C | MV: 2953 | Thr: 23.50 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.30 C | Ctrl: 2/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[123002 ms] Avg: 22.29 C | Raw: 22.45 C | MV: 2956 | Thr: 23.50 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.30 C | Ctrl: 2/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[124002 ms] Avg: 22.29 C | Raw: 22.15 C | MV: 2953 | Thr: 23.50 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.30 C | Ctrl: 2/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[125002 ms] Avg: 22.29 C | Raw: 22.15 C | MV: 2953 | Thr: 23.50 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.30 C | Ctrl: 2/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[126002 ms] Avg: 22.29 C | Raw: 22.45 C | MV: 2956 | Thr: 23.50 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.30 C | Ctrl: 2/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+[127002 ms] Avg: 22.29 C | Raw: 22.45 C | MV: 2956 | Thr: 23.50 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 22.30 C | Ctrl: 2/1440 | Env: CTRL | ADC_ERR: 0 | Q_OVR: 0
+Calibration: threshold reset to 28.00 C
+Drift tracking reset [24h]
+[128002 ms] Avg: 22.28 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[129002 ms] Avg: 22.28 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[130002 ms] Avg: 22.28 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[131002 ms] Avg: 22.29 C | Raw: 22.85 C | MV: 2960 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[132002 ms] Avg: 22.29 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[133002 ms] Avg: 22.28 C | Raw: 21.75 C | MV: 2949 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[134002 ms] Avg: 22.29 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0

@@ -1,0 +1,44 @@
+[11002 ms] Avg: 22.24 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[12002 ms] Avg: 22.23 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[13002 ms] Avg: 22.23 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[14002 ms] Avg: 22.24 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[15002 ms] Avg: 22.25 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[16002 ms] Avg: 22.25 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[17002 ms] Avg: 22.25 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[18002 ms] Avg: 22.26 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[19002 ms] Avg: 22.27 C | Raw: 22.85 C | MV: 2960 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[20002 ms] Avg: 22.28 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[21002 ms] Avg: 22.28 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[22002 ms] Avg: 22.28 C | Raw: 22.85 C | MV: 2960 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[23002 ms] Avg: 22.29 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[24002 ms] Avg: 22.30 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[25002 ms] Avg: 22.30 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[26002 ms] Avg: 22.31 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[27002 ms] Avg: 22.31 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 0 | Q_OVR: 0
+[28002 ms] Avg: --.- C | Raw: 3.332 V | MV: 3332 | Thr: 28.00 C | Mode: FAULT | LED: SOLID | DriftRef: LEARN | Ctrl: 0/1440 | ADC_ERR: 4 | Q_OVR: 0
+[29002 ms] Avg: --.- C | Raw: 3.336 V | MV: 3336 | Thr: 28.00 C | Mode: FAULT | LED: SOLID | DriftRef: LEARN | Ctrl: 0/1440 | ADC_ERR: 14 | Q_OVR: 0
+[30002 ms] Avg: --.- C | Raw: 3.336 V | MV: 3336 | Thr: 28.00 C | Mode: FAULT | LED: SOLID | DriftRef: LEARN | Ctrl: 0/1440 | ADC_ERR: 24 | Q_OVR: 0
+[31002 ms] Avg: --.- C | Raw: 3.332 V | MV: 3332 | Thr: 28.00 C | Mode: FAULT | LED: SOLID | DriftRef: LEARN | Ctrl: 0/1440 | ADC_ERR: 34 | Q_OVR: 0
+[32002 ms] Avg: --.- C | Raw: 3.329 V | MV: 3329 | Thr: 28.00 C | Mode: FAULT | LED: SOLID | DriftRef: LEARN | Ctrl: 0/1440 | ADC_ERR: 44 | Q_OVR: 0
+[33002 ms] Avg: --.- C | Raw: 3.332 V | MV: 3332 | Thr: 28.00 C | Mode: FAULT | LED: SOLID | DriftRef: LEARN | Ctrl: 0/1440 | ADC_ERR: 54 | Q_OVR: 0
+[34002 ms] Avg: --.- C | Raw: 3.336 V | MV: 3336 | Thr: 28.00 C | Mode: FAULT | LED: SOLID | DriftRef: LEARN | Ctrl: 0/1440 | ADC_ERR: 64 | Q_OVR: 0
+[35002 ms] Avg: --.- C | Raw: 3.332 V | MV: 3332 | Thr: 28.00 C | Mode: FAULT | LED: SOLID | DriftRef: LEARN | Ctrl: 0/1440 | ADC_ERR: 74 | Q_OVR: 0
+[36002 ms] Avg: 22.31 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 78 | Q_OVR: 0
+[37002 ms] Avg: 22.31 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 78 | Q_OVR: 0
+[38002 ms] Avg: 22.31 C | Raw: 22.85 C | MV: 2960 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 78 | Q_OVR: 0
+[39002 ms] Avg: 22.31 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 78 | Q_OVR: 0
+[40002 ms] Avg: 22.31 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 78 | Q_OVR: 0
+[41002 ms] Avg: 22.31 C | Raw: 22.85 C | MV: 2960 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 78 | Q_OVR: 0
+[42002 ms] Avg: 22.31 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 78 | Q_OVR: 0
+[43002 ms] Avg: 22.31 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 78 | Q_OVR: 0
+[44002 ms] Avg: 22.31 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 78 | Q_OVR: 0
+[45002 ms] Avg: 22.32 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 78 | Q_OVR: 0
+[46002 ms] Avg: 22.32 C | Raw: 22.45 C | MV: 2956 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 78 | Q_OVR: 0
+[47002 ms] Avg: 22.32 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 78 | Q_OVR: 0
+[48002 ms] Avg: 22.32 C | Raw: 22.85 C | MV: 2960 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 78 | Q_OVR: 0
+[49002 ms] Avg: 22.32 C | Raw: 22.85 C | MV: 2960 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 78 | Q_OVR: 0
+[50002 ms] Avg: 22.32 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 78 | Q_OVR: 0
+[51002 ms] Avg: 22.32 C | Raw: 22.85 C | MV: 2960 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 78 | Q_OVR: 0
+[52002 ms] Avg: 22.32 C | Raw: 22.15 C | MV: 2953 | Thr: 28.00 C | Mode: NORMAL | LED: OFF | DriftRef: *0.00 C | LastMin: 0.00 C | Ctrl: 0/1440 | Env: TRANS | ADC_ERR: 78 | Q_OVR: 0
+
+* Connecting to /dev/tty.usbmodem0010577349663 (2s) - Error: No such file or directory, cannot open /dev/tty.usbmodem0010577349663 
